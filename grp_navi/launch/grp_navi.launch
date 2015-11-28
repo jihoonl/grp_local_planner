@@ -1,0 +1,5 @@
+<launch>
+<node name="grp_planner" pkg="grp_navi" type="grp_planner"/>
+<node name="grp_mapping" pkg="grp_navi" type="grp_mapping"/>
+<node name="grp_controller" pkg="grp_navi" type="grp_controller"/>
+</launch>

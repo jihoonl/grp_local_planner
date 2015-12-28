@@ -1,13 +1,7 @@
-# grp_navi
-upload grp_navi project
+# GRP Local Planner 
 
-This project is based on the Gaussian Random Path algorithm, 
-which is proposed by Sungjoon Choi, a Ph.D. candidate at CPSLAB in SNU (cpslab.snu.ac.kr).
+A local planner plugin to ROS navigation stack. It underlys Gaussian Random Path algorithm. 
 
-It is based on ROS, and you need to install ROS, gazebo, and CUDA to run this project.
-If you want to run this, please follow this
-1. catkin_make
-2. roslaunch grp_navi grp_navi_world.launch
-3. roslaunch grp_navi grp_navi.launch
+## Reference 
 
-You can change src/waypnts.txt file, if you want to change waypoints.
+Sungjoon Choi, Kyoungjae Lee and Songhwai Oh, "[Gaussian Random Path](http://cpslab.snu.ac.kr/publications/papers/gaussian-random-path)," Technical Reoprt, Seoul National University

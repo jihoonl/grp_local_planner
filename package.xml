@@ -19,7 +19,8 @@
   <author>Sungjoon Choi</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-
+  <build_depend>base_local_planner</build_depend>
+  <build_depend>gaussian_process</build_depend>
   <export>
   </export>
 </package>

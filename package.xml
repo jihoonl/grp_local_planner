@@ -22,5 +22,6 @@
   <build_depend>base_local_planner</build_depend>
   <build_depend>gaussian_process</build_depend>
   <export>
+    <rosdoc config="rosdoc.yaml" />
   </export>
 </package>

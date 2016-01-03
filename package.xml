@@ -20,7 +20,16 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>base_local_planner</build_depend>
+  <build_depend>nav_core</build_depend>
   <build_depend>gaussian_process</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
   <export>
     <rosdoc config="rosdoc.yaml" />
   </export>

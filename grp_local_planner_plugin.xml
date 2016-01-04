@@ -1,0 +1,8 @@
+<library path="lib/libgrp_local_planner_ros">
+	<class name="grp_local_planner/GrpLocalPlannerROS" type="grp_local_planner::GrpLocalPlannerROS" base_class_type="nav_core::BaseLocalPlanner">
+		<description>
+			The Gaussian Random Path Local Planner  package implements a plugin
+			to the base_local_planner of the 2D navigation stack.
+		</description>
+	</class>
+</library>
